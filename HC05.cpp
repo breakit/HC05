@@ -173,7 +173,7 @@ int HC05::available()
 
 int HC05::peek()
 {
-    _btSerial.peek();
+  return  _btSerial.peek();
 }
 
 void HC05::flush()
